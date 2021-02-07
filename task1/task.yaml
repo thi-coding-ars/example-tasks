@@ -1,4 +1,5 @@
 title: "Test"
 description: "Hello, World!"
+mainClass: Main
 files:
   - Main.java
