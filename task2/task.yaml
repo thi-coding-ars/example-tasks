@@ -1,0 +1,14 @@
+mainClass: Main
+runWith: java
+testWith: java-junit4
+files:
+  - Main.java
+testFiles:
+  - MainTest.java
+title: Hello, World
+testClasses:
+  - MainTest
+description: |-
+  Gib die Zeichenkette `Hello World` aus!
+
+  **Flavor!**
