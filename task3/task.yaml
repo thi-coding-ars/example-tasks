@@ -3,6 +3,7 @@ runWith: python
 files:
   - main.py
 title: Python Hello, World
+allowSampleSolution: true
 description: |-
   Gib die Zeichenkette `Hello World` aus!
 
