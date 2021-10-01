@@ -1,4 +1,4 @@
-# Print Hello, World!
+# Print "Hello, World!" in the console
 
 #clean
 print("...")
