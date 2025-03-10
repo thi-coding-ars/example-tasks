@@ -1,5 +1,6 @@
 title: "Test"
 description: "Hello, World!"
+useCodeReview: true
 mainClass: Main
 maxTimeInMs: 2000
 runWith: java
