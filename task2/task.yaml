@@ -10,6 +10,4 @@ title: Hello, World
 testClasses:
   - MainTest
 description: |-
-  Gib die Zeichenkette `Hello World` aus!
-
-  **Flavor!**
+  Gib die Zeichenkette `Hello, World!` aus!
