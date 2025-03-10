@@ -1,6 +1,7 @@
 mainClass: Main
 runWith: java
 testWith: java-junit4
+useCodeReview: true
 files:
   - Main.java
 testFiles:
