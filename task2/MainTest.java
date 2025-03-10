@@ -2,6 +2,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 
 public class MainTest {
 
