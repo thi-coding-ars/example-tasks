@@ -1,4 +1,4 @@
-title: "Test"
+title: "Simple Hello, World"
 description: "Erweitere die Main-Methode der Klasse und gib die Zeichenkette `Hello, World!` aus!"
 useCodeReview: true
 mainClass: Main

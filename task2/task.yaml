@@ -6,7 +6,7 @@ files:
   - Main.java
 testFiles:
   - MainTest.java
-title: Hello, World
+title: Hello, World with TestCase
 testClasses:
   - MainTest
 description: |-
