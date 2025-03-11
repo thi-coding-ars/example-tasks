@@ -10,4 +10,4 @@ title: Hello, World
 testClasses:
   - MainTest
 description: |-
-  Gib die Zeichenkette `Hello, World!` aus!
+  Erweitere die Main-Methode der Klasse und gib die Zeichenkette `Hello, World!` aus!
