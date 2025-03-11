@@ -11,7 +11,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class FractionTest {
+public class FractionTest extends EasyAssert {
     private final PrintStream systemOut = System.out;
     private ByteArrayOutputStream testOut;
 
