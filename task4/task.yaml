@@ -12,5 +12,6 @@ testBase: test
 srcBase: src
 useCodeReview: true
 title: Fraction
+note: Keine weiterführende Konzepte (wie Sichtbarkeiten, Vererbung, this, usw.) wurden bisher behandelt.
 description: |-
   Implementieren Sie eine Klasse `Fraction` mit zwei Attributen `numerator` und `denominator`. Ergänzen Sie die zwei Methoden `setNumerator` und `setDenominator`, die jeweils einen Parameter vom Typ `int` entgegennehmen und diese auf den entsprechenden Attributen speichern. Ergänzen Sie eine weitere Methode `print` bei der die Attribute `numerator` und `denominator` mit einem Schrägstrich getrennt ausgegeben werden, z. B. `2/4`.
