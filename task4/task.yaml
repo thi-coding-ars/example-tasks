@@ -1,0 +1,12 @@
+mainClass: Fraction
+testWith: java-junit4
+testClasses: 
+  - FractionTest
+files:
+  - Fraction.java
+testFiles:
+  - FractionTest.java
+additionalFiles:
+  - pom.xml
+testBase: test
+srcBase: src
