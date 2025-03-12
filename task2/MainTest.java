@@ -5,7 +5,7 @@ import org.junit.After;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-public class MainTest {
+public class MainTest extends EasyAssert {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -23,6 +23,6 @@ public class MainTest {
     @Test
     public void testHelloWorldOutput() {
         Main.main(new String[]{});
-        assertEquals("Hello, World!", outContent.toString().trim());
+        assertEquals("Die Ausgabe muss 'Hello, World!' sein", "Hello, World!", outContent.toString().trim());
     }
 }
