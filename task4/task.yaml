@@ -10,6 +10,7 @@ additionalFiles:
   - pom.xml
 testBase: test
 srcBase: src
+minScore: 0.7
 useCodeReview: true
 title: Fraction
 note: Keine weiterführende Konzepte (wie Sichtbarkeiten, Vererbung, this, usw.) wurden bisher behandelt.
