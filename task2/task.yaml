@@ -2,6 +2,7 @@ mainClass: Main
 runWith: java
 testWith: java-junit4
 useCodeReview: true
+minScore: 0.3
 files:
   - Main.java
 testFiles:
