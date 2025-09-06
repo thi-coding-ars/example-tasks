@@ -1,0 +1,13 @@
+testWith: web-jest
+testClasses: 
+  - test.js
+entryPoint: index.html
+files:
+  - index.html
+testFiles:
+  - test.js
+useCodeReview: true
+title: HTML Hello World
+note: Einfaches Hello World mit HTML
+description: |-
+  Erstellen Sie eine einfache HTML-Seite, die "Hello World" in einem Paragraphen anzeigt.
