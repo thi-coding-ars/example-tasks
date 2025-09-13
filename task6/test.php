@@ -1,3 +1,4 @@
+<?php
 test('profile page contains student name and basic info', function () {
     ob_start();
     include 'index.php';
@@ -5,3 +6,4 @@ test('profile page contains student name and basic info', function () {
     
     expect($html)->toContain('Hello, World!');
 });
+?>
