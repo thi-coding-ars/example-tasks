@@ -1,4 +1,5 @@
 testWith: php-pest
+virtualWith: php
 testClasses: 
   - test.php
 entryPoint: index.php
