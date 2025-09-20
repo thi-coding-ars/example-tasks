@@ -1,9 +1,7 @@
-describe('HTML5 Semantic Structure Tests', () => {
-    test('should use semantic HTML5 elements correctly', () => {
-        const hasP = await elementExists('p');
-        expect(hasP, 'Add an <p> element to your body').toBe(true);
+test('should use semantic HTML5 elements correctly', () => {
+    const hasP = await elementExists('p');
+    expect(hasP, 'Add an <p> element to your body').toBe(true);
 
-        const pText = await getTextContent('p');
-        expect(pText, 'P should contain text "Hello, World!"').toBe('Hello, World!');
-    });
+    const pText = await getTextContent('p');
+    expect(pText, 'P should contain text "Hello, World!"').toBe('Hello, World!');
 });
