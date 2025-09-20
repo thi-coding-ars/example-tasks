@@ -1,4 +1,4 @@
-test('should use semantic HTML5 elements correctly', () => {
+test('should use semantic HTML5 elements correctly', async () => {
     const hasP = await elementExists('p');
     expect(hasP, 'Add an <p> element to your body').toBe(true);
 
